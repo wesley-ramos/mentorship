@@ -29,6 +29,7 @@
 - [ ] Integrating with Sonarqube.
 - [ ] What is docker ?
 
+***
 - [ ] **04. Meeting - Interacting with the infrastructure in an easy way**
 - [ ] What is docker hub?
 - [ ] Docker commands.
@@ -38,6 +39,7 @@
 - [ ] network.
 - [ ] Generating an image of the application during the pipeline.
 
+***
 - [ ] **05. Meeting - building APIs elegantly**
 - [ ] What is spring web?
 - [ ] What is swagger ?
@@ -46,4 +48,5 @@
 - [ ] Validations
 - [ ] Versioning
 
+***
 - [ ] **06. Meeting - **
