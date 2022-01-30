@@ -6,7 +6,7 @@
 ### Planning
 
 ***
-- [ ] **01. Meeting - Welcome**
+-  **01. Meeting - Welcome**
 - [ ] Introduce myself to the class.
 - [ ] Get to know each student.
 - [ ] Understand what content will be most important to the class.
@@ -16,21 +16,21 @@
 - [ ] How to ensure software quality ?
 
 ***
-- [ ] **02. Meeting - Configuring the environment**
+- **02. Meeting - Configuring the environment**
 - [ ] Configuring Java SDK 17.
 - [ ] Downloading and installing maven.
 - [ ] Downloading and installing the development IDE.
 - [ ] Versioning the project on Github.
 
 ***
-- [ ] **03. Meeting - Starting off right**
+- **03. Meeting - Starting off right**
 - [ ] What are automated tests ?
 - [ ] Running the tests automatically.
 - [ ] Integrating with Sonarqube.
 - [ ] What is docker ?
 
 ***
-- [ ] **04. Meeting - Interacting with the infrastructure in an easy way**
+- **04. Meeting - Interacting with the infrastructure in an easy way**
 - [ ] What is docker hub?
 - [ ] Docker commands.
 - [ ] Creating a custom image.
@@ -40,7 +40,7 @@
 - [ ] Generating an image of the application during the pipeline.
 
 ***
-- [ ] **05. Meeting - building APIs elegantly**
+- **05. Meeting - building APIs elegantly**
 - [ ] What is spring web?
 - [ ] What is swagger ?
 - [ ] Market standards
@@ -49,4 +49,4 @@
 - [ ] Versioning
 
 ***
-- [ ] **06. Meeting - **
+- **06. Meeting**
