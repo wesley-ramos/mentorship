@@ -40,7 +40,7 @@
 - [ ] Generating an image of the application during the pipeline.
 
 ***
-- **05. Meeting - building APIs elegantly**
+- **05. Meeting - Building APIs elegantly**
 - [ ] What is spring web?
 - [ ] What is swagger ?
 - [ ] Market standards
@@ -49,4 +49,14 @@
 - [ ] Versioning
 
 ***
-- **06. Meeting**
+- **06. Meeting - Persistence**
+- [ ] Creating an entity.
+- [ ] Creating relationships between entities.
+- [ ] Queries
+- [ ] Migrations
+
+***
+- **07. Meeting - Monitoring**
+- [ ] Spring actuator
+- [ ] Prometheus
+- [ ] Grafana
