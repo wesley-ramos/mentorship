@@ -2,7 +2,7 @@
 
 # Mentorship
 The purpose of mentoring is to help students:
-- Understand the development cycle of a project.
+- Understand the [development cycle](https://github.com/wesley-ramos/mentorship/wiki/Development-cycle) of a project.
 - Master the main technologies on the market.
 - Implement a solution from start to finish.
 
