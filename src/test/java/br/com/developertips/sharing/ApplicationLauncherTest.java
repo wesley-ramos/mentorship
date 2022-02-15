@@ -1,10 +1,10 @@
-package br.com.developertips.mentorship;
+package br.com.developertips.sharing;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MentorshipApplicationTests {
+class ApplicationLauncherTest {
 
 	@Test
 	void contextLoads() {
