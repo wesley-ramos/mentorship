@@ -1,10 +1,10 @@
 package br.com.developertips.sharing.api.category;
 
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotEmpty;
 
 public class CategoryRequestDTO {
     
-    @NotNull(message="O nome é obrigatorio")
+    @NotEmpty(message="O nome é obrigatorio")
     private String name;
     
     public String getName() {
