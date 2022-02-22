@@ -1,5 +1,6 @@
 package br.com.developertips.sharing.api;
 
+import java.util.stream.Collectors;
 import javax.validation.ConstraintViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -21,8 +22,12 @@ public class GlobalHandlerAdvice {
     @ExceptionHandler(value = { MethodArgumentNotValidException.class })
     @ResponseStatus(value = HttpStatus.BAD_REQUEST)
     @ResponseBody
-    public ErrorMessage notValid(MethodArgumentNotValidException exception) {
+    public ErrorMessage notValid(MethodArgumentNotValidException exception) {        
         
-        return new ErrorMessage(exception.getMessage());
+        String message = exception.getBindingResult().getFieldErrors().stream()
+            .map(error -> error.getDefaultMessage())
+            .collect(Collectors.joining(","));
+        
+        return new ErrorMessage(message);
     }
 }
